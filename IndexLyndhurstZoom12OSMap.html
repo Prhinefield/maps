@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lyndhurst</title>
+    <meta name="viewport" content="width=device-width, 
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        html, body, #map {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script>
+        let map = L.map("map", {center: [50.872600, -1.576630], zoom: 16});
+        L.tileLayer(
+            "https://api.maptiler.com/tiles/uk-osgb1888/{z}/{x}/{y}?key=ETYNekxalQXqrSVc8O56", 
+            {attribution: '&copy; <a href="http://' + 
+            'www.openstreetmap.org/copyright">OpenStreetMap</a>'}
+        ).addTo(map);
+let pnt = L.marker([50.87198, -1.57476]).addTo(map);
+pnt.bindPopup(
+    "This is where Patrick sits</b>."
+);
+
+L.circleMarker(
+  [50.872600, -1.5757 - 0.001], 
+  {radius: 50, color: "black", fillColor: "red"}
+).addTo(map);
+    </script>
+</body>
+</html>
+
+
+<!-- https://www.openstreetmap.org/#map=18/50.872600/-1.576630 
+
+https://api.maptiler.com/tiles/uk-osgb1888/{z}/{x}/{y}?key=ETYNekxalQXqrSVc8O56
+
+pnt.bindPopup(
+    "This is where Patrick sits</b>."
+);
+-->
