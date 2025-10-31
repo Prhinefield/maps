@@ -1,0 +1,80 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.5825983,50.8179166 ]
+    },
+    "properties": {
+    "fid":1,
+    "Name":"ArmstrongRoad.jpg",
+    "Date":"26/10/2025",
+    "Time":"10:22:34",
+    "Link":"https://kcirtap.wuaze.com/images/ArmstrongRoad.jpg",
+    "Link words":"ArmstrongRoad.jpg"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.5809833,50.8184549 ]
+    },
+    "properties": {
+    "fid":2,
+    "Name":"Bin.jpg",
+    "Date":"26/10/2025",
+    "Time":"10:20:18",
+    "Link":"https://kcirtap.wuaze.com/images/Bin.jpg",
+    "Link words":"Bin.jpg"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.5810152,50.8188234 ]
+    },
+    "properties": {
+    "fid":3,
+    "Name":"Church.jpg",
+    "Date":"26/10/2025",
+    "Time":"10:18:15",
+    "Link":"https://kcirtap.wuaze.com/images/Church.jpg",
+    "Link words":"Church.jpg"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.587782972,50.81958769 ]
+    },
+    "properties": {
+    "fid":4,
+    "Name":"Gate.jpg",
+    "Date":"26/10/2025",
+    "Time":"10:30:54",
+    "Link":"https://kcirtap.wuaze.com/images/Gate.jpg",
+    "Link words":"Gate.jpg"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -1.5833683,50.8177716 ]
+    },
+    "properties": {
+    "fid":5,
+    "Name":"PillarBox.jpg",
+    "Date":"26/10/2025",
+    "Time":"10:23:47",
+    "Link":"https://kcirtap.wuaze.com/images/PillarBox.jpg",
+    "Link words":"PillarBox.jpg"
+    }
+  }
+]
+}
